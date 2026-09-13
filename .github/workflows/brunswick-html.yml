@@ -2,9 +2,6 @@ name: Brunswick HTML Wildfire Animation
 
 on:
   workflow_dispatch:
-  schedule:
-  - cron: '17 23 * * *'
-    timezone: "America/Vancouver"
     
 permissions:
   contents: read
